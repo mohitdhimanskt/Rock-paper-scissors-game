@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
 :root {
     --primary-color: #003699;
     --dark-color: #333333;
@@ -53,4 +53,24 @@
       grid-template-columns: repeat(2,1fr);
       font-size: 1.2rem;
       color: #fff;
+  }
+  .score p:last-child {
+      background: var(--primary-color);
+  }
+  .score p:last-child {
+      background: var(--dark-color);
+  }
+  .choices {
+      display: grid;
+      grid-template-columns: repeat(3 ,1fr);
+      grid-gap: 2rem;
+      margin-top: 3rem;
+      text-align: center;
+  }
+  .choice {
+      cursor: pointer;
+
+  }
+  .choice:hover{
+      color: var(--primary-color);
   }
