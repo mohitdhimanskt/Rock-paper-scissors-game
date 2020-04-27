@@ -92,3 +92,8 @@ function getWinner(p, c) {
       <p>Computer: 0</p>
     `;
   }
+  function clearModal(e){
+      if(e.target == modal){
+          modal.style.display = 'none';
+      }
+  }
